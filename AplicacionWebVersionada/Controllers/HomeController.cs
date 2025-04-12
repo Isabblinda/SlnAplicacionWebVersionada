@@ -17,12 +17,19 @@ namespace AplicacionWebVersionada.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>issabela gomez </returns>
 
         public IActionResult Privacy()
         {
             return View();
         }
-
+        /// <summary>
+        /// Accion QUe se encaraga... 
+        /// </summary>
+        /// <returns></returns>
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
